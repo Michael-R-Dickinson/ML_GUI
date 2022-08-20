@@ -1,0 +1,8 @@
+2022-08-17 18:06:39,535 - __main__ - DEBUG - batch type= torch.float32, batch.shape=torch.Size([32, 11])
+2022-08-17 18:06:39,535 - __main__ - DEBUG - starting linear layer 0 with batch type torch.float32, size torch.Size([32, 11])
+2022-08-17 18:06:39,546 - __main__ - DEBUG - starting linear layer 1 with batch type torch.float32, size torch.Size([32, 24])
+2022-08-17 18:06:39,546 - __main__ - DEBUG - linear layer forward pass complete
+2022-08-17 18:06:39,546 - __main__ - DEBUG - batch type= torch.float32, batch.shape=torch.Size([32, 24])
+2022-08-17 18:06:39,546 - __main__ - DEBUG - starting linear layer 0 with batch type torch.float32, size torch.Size([32, 24])
+2022-08-17 18:06:39,547 - __main__ - DEBUG - linear layer forward pass complete
+2022-08-17 18:06:39,548 - __main__ - DEBUG - self.criterion=MSELoss(), outputs.shape=torch.Size([32]), labels.shape=torch.Size([32]), torch.float32, torch.float32
